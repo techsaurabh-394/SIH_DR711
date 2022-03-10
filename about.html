@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+    background: url('https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvbmZlcmVuY2V8ZW58MHx8MHx8&w=1000&q=80') no-repeat center center/cover;
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+    
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.bottom{
+ text-align: center;
+ margin-top: 50px;
+}
+
+.btn{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 18px;
+
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+<body>
+    <div class="about-section">
+        <h1>Contact Us </h1>
+        
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            
+            <div class="container">
+              <h2>Sachin Gupta</h2>
+              <a class="btn" href= "mailto= sachin2020cs117@abesit.edu.in">Contact</button></a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            
+            <div class="container">
+              <h2>Sakshi Singh</h2>
+              <a class="btn"  href= "mailto= sakshi2020cs143@abesit.edu.in">Contact</button></a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            
+            <div class="container">
+              <h2>Vidhi Tayal</h2>
+              <a class="btn"  href= "mailto= vidhi2020cs046@abesit.edu.in">Contact</button></a>
+            </div>
+          </div>
+        </div>
+    
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            
+            <div class="container">
+              <h2>Vedant Agarwal</h2>
+              <a class="btn" href="mailto:avedant4@gmail.com">Contact</a>            
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            
+            <div class="container">
+              <h2>Anubhav</h2>
+              <a class="btn"  href= "mailto= anubhav2020it021@abesit.edu.in">Contact</button></a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+        
+            <div class="container">
+              <h2>Saurabh Pathak</h2>
+
+              <a class="btn"  href= "mailto: saurabh2020cs082@abesit.edu.in?subject = Feedback&body = Message">
+               Contact </button></a> 
+                
+            </div>
+          </div>
+        </div>
+      </div> 
+</body>
+</html>
